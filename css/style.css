@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+.container{
+    background: rgba(255, 255, 255, 0.442);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(11px);
+       border-radius: 20px;
+       border: 1px solid rgba(0, 0, 0, 0.164);
+       box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.422);
+transition: all 0.5s ease-in-out;
+    width: 25rem;
+    border-radius: 20px;
+    padding-bottom: 3rem;
+    backdrop-filter: blur(4,4px);
+    
+}
+
+.container:hover{
+    box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.911);
+}
+
+input{
+    padding-left: 1rem;
+}
